@@ -1,24 +1,12 @@
-# lj-ui
+基本介绍
 
-## Project setup
-```
-npm install
-```
+-哪些内容
+    仿造elementUI封装常见的功能性组件（Button、Model、Form相关）
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+-安装组件库
+    npm install lj-ui
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-全局导入
+    import LjUI from 'lj-ui'
+    import 'lj-ui/lib/ljui.css'
+    Vue.use(LjUI)
